@@ -54,11 +54,11 @@ node --test tests/pssuq.test.ts
 Para a página Next.js:
 
 ```powershell
-npm install
+npm ci
 npm run dev
 ```
 
-Abra http://localhost:3000. A primeira instalação deverá gerar e versionar `package-lock.json`; depois use `npm ci`. As dependências não foram baixadas neste ambiente, que não resolve `registry.npmjs.org`.
+Abra http://localhost:3000. A primeira instalação foi concluída em **12/11/2026** e gerou `package-lock.json`; preserve esse arquivo para reproduzir as versões com `npm ci`. Nessa execução, os 9 testes, a verificação de tipos e o build Next.js passaram, e a página inicial respondeu com HTTP 200. A visualização da primeira página não exige PostgreSQL ou arquivo `.env`.
 
 Para PostgreSQL local, com Docker Desktop instalado e iniciado:
 

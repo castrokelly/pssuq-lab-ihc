@@ -69,7 +69,7 @@ Arquivo fornecido: Apresentação da Disciplina.pdf, 16 páginas. Conferidos tex
 
 **F09 — NEXT.JS. Installation.**
 - https://nextjs.org/docs/app/getting-started/installation
-- Evidência: App Router, instalação manual, scripts de desenvolvimento/build, React e requisitos do ambiente. A página consultada identifica a série 16; o projeto propõe Node 24 e dependências a resolver/congelar com npm. Não foi possível instalar pacotes no terminal sem rede.
+- Evidência: App Router, instalação manual, scripts de desenvolvimento/build, React e requisitos do ambiente. A página consultada identifica a série 16. A preparação local de 12/11/2026 utilizou Node 24.16.0 e Next.js 16.4.6, gerou package-lock.json e aprovou testes, verificação de tipos e build.
 
 **F10 — NODE-POSTGRES. Queries.**
 - https://node-postgres.com/features/queries

@@ -25,8 +25,7 @@ jobs:
         with:
           node-version: 24
       - run: npm test
-      # Replace with npm ci after the first lockfile is committed.
-      - run: npm install
+      - run: npm ci
       - run: npm run typecheck
       - run: npm run build
       - run: cp .env.example .env

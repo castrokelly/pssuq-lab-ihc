@@ -13,13 +13,14 @@ Mestrado · 2026/02
 - Estrutura Next.js/React, domínio TypeScript, esquema PostgreSQL e documentação escritos.
 - Sintaxe de scripts Node e PowerShell conferida; JSONs válidos e links relativos Markdown sem alvos ausentes.
 - Testes matemáticos executáveis com Node 24, sem instalação npm; 9 testes aprovados, 0 falhas, em Node.js 24.16.0.
+- Em 12/11/2026, instalação npm concluída e package-lock.json gerado; npm run check aprovou os 9 testes, a verificação de tipos e o build Next.js 16.4.6.
+- Servidor de desenvolvimento iniciado em http://127.0.0.1:3000; página inicial respondeu com HTTP 200 e incluiu a identificação institucional. A inspeção visual no Chrome não foi realizada por falta de autorização do controle do aplicativo.
 - Ausência de formulário de coleta nesta base indicada no README, página inicial e protocolo.
 
 ## Ainda não validado
 
-- Instalação das dependências, resolução efetiva/lockfile, typecheck e build Next.js: terminal sem resolução de rede para registry.npmjs.org.
-- Migração e integração PostgreSQL: Docker/psql não disponíveis nesta sessão.
-- Execução do script de publicação: GitHub CLI não instalado, navegador sem login e integração sem operação de criação.
+- Migração e integração PostgreSQL: não executadas nesta preparação da página inicial.
+- Execução do script de criação/publicação: não realizada; o repositório já existente foi publicado pelo fluxo Git normal.
 - Formulário canônico: 16 textos ainda precisam de conferência literal e importação.
 - Gestão de estudos, autenticação, coleta, painel e exportação: escopo futuro do MVP, não implementado.
 

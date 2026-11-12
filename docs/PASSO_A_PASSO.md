@@ -20,7 +20,7 @@ Instalar Node.js 24 LTS, Git e, para banco local, Docker Desktop. GitHub CLI é 
 node --version
 git --version
 node --test tests/pssuq.test.ts
-npm install
+npm ci
 npm run typecheck
 npm run build
 npm run dev
@@ -28,7 +28,7 @@ npm run dev
 
 Abrir http://localhost:3000. A página inicial demonstra resultados de dados sintéticos; não é o formulário do participante. Se o projeto usar versões npm resolvidas diferentes, revisar changelog e preservar o lockfile.
 
-A primeira instalação precisa de rede. Versionar package-lock.json assim que for gerado. Depois usar npm ci no desenvolvimento e na CI. O material da disciplina não impõe versões exatas de pacotes; o projeto fixa a série planejada e deverá congelar a resolução efetiva.
+As dependências precisam de rede na primeira preparação do ambiente. O arquivo package-lock.json foi gerado na instalação local de 12/11/2026; preservá-lo no versionamento e usar npm ci no desenvolvimento e na CI. O material da disciplina não impõe versões exatas de pacotes; o lockfile registra a resolução efetiva do projeto.
 
 ## 3. Subir e verificar PostgreSQL
 

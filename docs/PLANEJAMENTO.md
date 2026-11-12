@@ -81,7 +81,7 @@ Detalhamento e tratamento de situações especiais: [protocolo](PROTOCOLO_PSSUQ.
 | Persistência | PostgreSQL + driver pg | Estudos, sessões, itens respondidos e snapshots |
 | Qualidade | Node test runner + TypeScript + CI | Regressões matemáticas, integridade e compilação |
 
-O driver pg e SQL versionado foram escolhidos para reduzir a quantidade de ferramentas. Prisma é alternativa possível, não obrigação. As versões resolvidas devem ser congeladas em package-lock.json na primeira instalação com rede.
+O driver pg e SQL versionado foram escolhidos para reduzir a quantidade de ferramentas. Prisma é alternativa possível, não obrigação. As versões resolvidas foram registradas em package-lock.json na primeira instalação local, em 12/11/2026; preservar o arquivo no versionamento e usar npm ci.
 
 A hospedagem de código será no repositório [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado no GitHub. Em 12/11/2026, Kelly definiu a **DigitalOcean** como provedor de publicação da plataforma e **pssuq.org** como domínio pretendido, com origem canônica pretendida **https://pssuq.org**. A modalidade proposta é App Platform para Next.js/React com PostgreSQL gerenciado, sujeita à definição do serviço, região e orçamento. A publicação efetiva, o controle do domínio e o DNS ainda não foram verificados. O [registro de publicação](PUBLICACAO_DIGITALOCEAN.md) detalha a preparação. A demonstração local com Docker permanece como contingência.
 
@@ -159,7 +159,7 @@ Executar demonstração em um banco com dados sintéticos claramente identificad
 | Painel calcular diferente do CSV | Resultado não reproduzível | Mesmo motor no servidor e recálculo de amostra exportada |
 | Tempo curto | MVP incompleto | Escopo fechado e integração semanal |
 | Ausência de rede na apresentação | Falha na demonstração | App/banco locais e dados sintéticos disponíveis |
-| Dependências não instaladas | Build desconhecido | Gerar lockfile e executar CI assim que houver rede |
+| Divergência de dependências entre ambientes | Falha de reprodução do build | Preservar package-lock.json, instalar com npm ci e executar CI; build local validado em 12/11/2026 |
 | Falha de autenticação ou rede no envio ao GitHub | Commits locais ainda não publicados | Conferir origin, autenticar e enviar os commits ao repositório já criado; verificar o resultado remoto |
 
 ## 11. Licença e autoria
