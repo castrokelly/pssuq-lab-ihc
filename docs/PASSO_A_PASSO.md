@@ -1,4 +1,10 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Passo a passo de execução e implementação
+
+**Equipe:** [integrantes e contatos institucionais](../README.md#equipe).
 
 ## 1. Ler e confirmar o escopo
 
@@ -67,7 +73,7 @@ Se for necessário autenticar com GitHub CLI, executar `gh auth login` antes do 
 
 O script `scripts/publicar-github.ps1` cria um novo repositório e recusa um já existente; não se aplica à publicação neste remoto. Após o push, conferir que README e docs estão no GitHub. Só então o requisito de código no GitHub está atendido.
 
-Não convidar Andrey e Gotardo por nomes aproximados: obter os nomes de usuário corretos. Convites não foram enviados.
+Não convidar Andrey Nery Lima Bonat e Gotardo Campara por nomes aproximados: obter os nomes de usuário corretos. Convites não foram enviados.
 
 ## 5. Congelar o instrumento
 

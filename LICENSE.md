@@ -1,6 +1,14 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Licença do material autoral
 
-Copyright (c) 2026 Andrey, Gotardo e Kelly.
+Copyright (c) 2026:
+
+- Andrey Nery Lima Bonat — [andrey.lima@pucpr.edu.br](mailto:andrey.lima@pucpr.edu.br)
+- Gotardo Campara — [gotardo.campara@pucpr.edu.br](mailto:gotardo.campara@pucpr.edu.br)
+- Kelly Christine Alvarenga de Castro — [christine.kelly@pucpr.edu.br](mailto:christine.kelly@pucpr.edu.br)
 
 O material autoral deste projeto — documentação, planos, recursos de apresentação e código — está disponibilizado sob **Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)**.
 
@@ -9,7 +17,7 @@ Resumo: https://creativecommons.org/licenses/by-sa/4.0/
 
 Para reutilizar, atribua o crédito, indique alterações e disponibilize adaptações sob a mesma licença, conforme seus termos. Não acrescente restrições incompatíveis. Uso comercial é permitido.
 
-Atribuição sugerida: “PSSUQ Lab — Andrey, Gotardo e Kelly (2026), CC BY-SA 4.0; alterações por [nome].”
+Atribuição sugerida: “PSSUQ Lab — Andrey Nery Lima Bonat, Gotardo Campara e Kelly Christine Alvarenga de Castro (2026), CC BY-SA 4.0; alterações por [nome].”
 
 ## Opção adicional para código
 

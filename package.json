@@ -4,6 +4,11 @@
   "private": true,
   "type": "module",
   "license": "(CC-BY-SA-4.0 OR MIT)",
+  "contributors": [
+    { "name": "Andrey Nery Lima Bonat", "email": "andrey.lima@pucpr.edu.br" },
+    { "name": "Gotardo Campara", "email": "gotardo.campara@pucpr.edu.br" },
+    { "name": "Kelly Christine Alvarenga de Castro", "email": "christine.kelly@pucpr.edu.br" }
+  ],
   "engines": { "node": ">=24" },
   "scripts": {
     "dev": "next dev",

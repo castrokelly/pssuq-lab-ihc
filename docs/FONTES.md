@@ -1,4 +1,10 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Pesquisa, evidências e referências
+
+**Equipe:** [integrantes e contatos institucionais](../README.md#equipe).
 
 Consulta realizada em **11/11/2026**, considerando a data local do usuário. Buscas em portais editoriais, página do autor, textos disponibilizados pelo autor no ResearchGate, MeasuringU, IEEE e documentação oficial das tecnologias/licença. Buscas genéricas e páginas comerciais foram usadas para descoberta; as decisões do protocolo se apoiam nas fontes primárias abaixo.
 

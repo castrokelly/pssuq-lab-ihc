@@ -1,6 +1,14 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Backlog com critérios de aceite
 
+**Equipe:** [integrantes e contatos institucionais](../README.md#equipe).
+
 As atribuições são propostas. O repositório remoto já existe em [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc); a criação das issues permanece pendente.
+
+Os primeiros nomes usados nas tabelas correspondem aos integrantes identificados com nome completo e contato institucional no [README](../README.md#equipe).
 
 | ID | Prioridade | Responsável | Entrega e aceite | Dependência |
 |---|---|---|---|---|

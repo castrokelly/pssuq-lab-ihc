@@ -1,14 +1,24 @@
 import { scorePSSUQ } from "../domain/pssuq.ts";
+import { institution, team } from "../project.ts";
 
 const score = scorePSSUQ([...Array(6).fill(1), ...Array(6).fill(2), 3, 3, 3, 7]);
 const labels = { overall: "Geral", sysUse: "Utilidade do sistema", infoQual: "Qualidade da informação", intQual: "Qualidade da interface" } as const;
 
 export default function Home() {
   return <main>
-    <span className="eyebrow">PPGIa · PUCPR · Fundamentos da IHC</span>
-    <h1>PSSUQ Lab</h1>
-    <p className="lead">Da coleta à análise, com fidelidade ao instrumento.</p>
-    <p>Andrey · Gotardo · Kelly</p>
+    <header className="project-header">
+      <p><strong>{institution.name}</strong><br />{institution.program}<br />{institution.course}</p>
+      <span className="eyebrow">Fundamentos da IHC</span>
+      <h1>PSSUQ Lab</h1>
+      <p className="lead">Da coleta à análise, com fidelidade ao instrumento.</p>
+    </header>
+    <section aria-labelledby="team-heading">
+      <h2 id="team-heading">Equipe</h2>
+      <ul className="team">{team.map(({ name, email }) => <li key={email}>
+        <span>{name}</span>
+        <a href={`mailto:${email}`}>{email}</a>
+      </li>)}</ul>
+    </section>
     <aside><strong>Base inicial de desenvolvimento.</strong> Gestão de estudos e coleta serão implementadas. Os números abaixo são exemplos sintéticos de cálculo.</aside>
     <section aria-labelledby="score-heading">
       <h2 id="score-heading">PSSUQ versão 3</h2>

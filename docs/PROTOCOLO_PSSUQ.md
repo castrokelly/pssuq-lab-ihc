@@ -1,4 +1,10 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Protocolo metodológico — PSSUQ versão 3
+
+**Equipe:** [integrantes e contatos institucionais](../README.md#equipe).
 
 **Decisão do projeto:** PSSUQ v3; 16 itens; formato original; aplicação ao final de uma sessão com tarefas. Identificador: PSSUQ-3. Versão do cálculo: pssuq3-mean-available-v1.
 

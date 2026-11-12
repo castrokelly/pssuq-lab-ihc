@@ -1,11 +1,22 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Planejamento de desenvolvimento — PSSUQ Lab
 
-**Equipe:** Andrey, Gotardo e Kelly
 **Disciplina:** Fundamentos da Interação Humano-Computador · PPGIa/PUCPR
 **Professor:** Dr. Leo Natan Paschoal
 **Planejamento elaborado em:** 11/11/2026 · **Início previsto da execução:** 23/10/2026 (23 de outubro) · **Entrega final:** 11/12/2026
 
 **Repositório:** [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado; publicação dos commits pendente.
+
+**Equipe:**
+
+| Integrante | E-mail institucional |
+|---|---|
+| Andrey Nery Lima Bonat | [andrey.lima@pucpr.edu.br](mailto:andrey.lima@pucpr.edu.br) |
+| Gotardo Campara | [gotardo.campara@pucpr.edu.br](mailto:gotardo.campara@pucpr.edu.br) |
+| Kelly Christine Alvarenga de Castro | [christine.kelly@pucpr.edu.br](mailto:christine.kelly@pucpr.edu.br) |
 
 ## 1. Proposta
 
@@ -84,7 +95,7 @@ Respostas brutas são a fonte de verdade. Escores podem ser derivados na consult
 
 ## 7. Responsabilidades sugeridas
 
-A divisão é uma proposta operacional; não pressupõe competências ou acordos prévios dos membros.
+A divisão é uma proposta operacional; não pressupõe competências ou acordos prévios dos membros. Os primeiros nomes nas tabelas de responsabilidades e no cronograma correspondem aos integrantes identificados acima; “Trio” designa a equipe completa.
 
 | Frente | Responsável principal | Revisor | Resultado esperado |
 |---|---|---|---|

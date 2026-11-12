@@ -22,7 +22,7 @@ try {
   $repoPath = "$login/$RepositoryName"
   & gh repo view $repoPath --json name 2>$null | Out-Null
   if ($LASTEXITCODE -eq 0) { throw "O repositório $repoPath já existe. Não será alterado por este script." }
-  & gh repo create $repoPath --public --source . --remote origin --push --description "Projeto IHC: gestão e análise de estudos com PSSUQ v3 — Andrey, Gotardo e Kelly"
+  & gh repo create $repoPath --public --source . --remote origin --push --description "PSSUQ Lab — PUCPR · PPGIa · Mestrado 2026/02 — Andrey Nery Lima Bonat, Gotardo Campara e Kelly Christine Alvarenga de Castro"
   if ($LASTEXITCODE -ne 0) { throw "Falha na criação/publicação. Confira o estado no GitHub antes de repetir." }
   & gh repo view $repoPath --json url --jq '.url'
   & git ls-remote origin refs/heads/main

@@ -1,8 +1,20 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # PSSUQ Lab · Fundamentos da IHC
 
 Ferramenta acadêmica planejada para gerenciar estudos e coletar, analisar e exportar avaliações com o **Post-Study System Usability Questionnaire (PSSUQ), versão 3**.
 
-**Equipe:** Andrey, Gotardo e Kelly · **Disciplina:** Fundamentos da Interação Humano-Computador, PPGIa/PUCPR · **Professor:** Dr. Leo Natan Paschoal · **Apresentação final:** 11/12/2026.
+**Disciplina:** Fundamentos da Interação Humano-Computador · **Professor:** Dr. Leo Natan Paschoal · **Apresentação final:** 11/12/2026.
+
+## Equipe
+
+| Integrante | E-mail institucional |
+|---|---|
+| Andrey Nery Lima Bonat | [andrey.lima@pucpr.edu.br](mailto:andrey.lima@pucpr.edu.br) |
+| Gotardo Campara | [gotardo.campara@pucpr.edu.br](mailto:gotardo.campara@pucpr.edu.br) |
+| Kelly Christine Alvarenga de Castro | [christine.kelly@pucpr.edu.br](mailto:christine.kelly@pucpr.edu.br) |
 
 ## Comece por aqui
 
@@ -61,4 +73,4 @@ O instrumento usa 16 itens ordenados, escala original de 1 a 7, com **1 = concor
 
 Material autoral deste projeto sob **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. O código autoral também está disponível, alternativamente, sob [MIT](LICENSE-CODE-MIT), para facilitar reutilização como software. Instrumento PSSUQ, artigos, marcas e dependências permanecem sob seus próprios direitos; não são relicenciados pelo grupo. Consulte [LICENSE.md](LICENSE.md) e [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Texto de atribuição: “PSSUQ Lab — Andrey, Gotardo e Kelly, 2026. CC BY-SA 4.0. Informar alterações e preservar a atribuição.”
+Texto de atribuição: “PSSUQ Lab — Andrey Nery Lima Bonat, Gotardo Campara e Kelly Christine Alvarenga de Castro, 2026. CC BY-SA 4.0. Informar alterações e preservar a atribuição.”

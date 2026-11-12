@@ -1,4 +1,10 @@
+**PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ**<br>
+PPGIa — Programa de Pós-Graduação em Informática<br>
+Mestrado · 2026/02
+
 # Créditos e materiais de terceiros
+
+**Equipe:** [integrantes e contatos institucionais](README.md#equipe).
 
 - **PSSUQ:** desenvolvido por James R. Lewis no contexto de pesquisas da IBM. A origem, as versões e as fontes constam em docs/FONTES.md. Não é criação do grupo. Não se afirma endosso do autor, da IBM ou da PUCPR.
 - O autor informa uso do instrumento sem taxa de licença. Isso é distinto da licença aplicada a este software e dos direitos editoriais dos artigos e livros.
