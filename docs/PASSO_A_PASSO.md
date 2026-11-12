@@ -141,6 +141,10 @@ Executar percurso real em navegador: criar estudo → abrir → realizar tarefas
 6. Conferir licença, créditos e links de execução no README.
 7. Verificar o tempo disponível com o professor; 10–12 minutos é somente sugestão deste plano.
 
-## 12. Trabalho diário do grupo
+## 12. Publicar a plataforma web
+
+O provedor escolhido é **DigitalOcean**, com domínio pretendido **pssuq.org**, conforme decisão de Kelly registrada em 12/11/2026. Seguir [PUBLICACAO_DIGITALOCEAN.md](PUBLICACAO_DIGITALOCEAN.md) para definir o serviço, validar build e banco, configurar a origem, conferir domínio/HTTPS e registrar a publicação. Essa decisão não significa que a infraestrutura ou o domínio já estejam operacionais. Conferir também [licenciamento e plataformas comparáveis](ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md).
+
+## 13. Trabalho diário do grupo
 
 Criar branch por tarefa, implementar um comportamento verificável, testar, abrir pull request e solicitar revisão de outro membro. Alterações no instrumento exigem revisão metodológica. Não fazer toda a publicação somente na véspera: o acompanhamento da disciplina é contínuo.

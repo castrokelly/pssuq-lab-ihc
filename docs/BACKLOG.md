@@ -28,6 +28,8 @@ Os primeiros nomes usados nas tabelas correspondem aos integrantes identificados
 | 14 | P0 | Kelly | Roteiro final, fontes, licença, README e evidências atualizados | 13 |
 | 15 | P0 | Trio | Release v1.0.0, ensaio e demonstração local de contingência | 14 |
 | 16 | P2 | Trio | Comparação entre rodadas com delineamento e análise próprios | MVP pronto |
+| 17 | P0 | Kelly + Gotardo | Preparar publicação DigitalOcean/pssuq.org; verificar domínio, build, banco, HTTPS e registro do commit publicado | 01–15; decisão em PUBLICACAO_DIGITALOCEAN.md |
+| 18 | P0 | Kelly + Trio | Conferir atribuição, condições do texto, identidade independente e uso do nome/domínio para o lançamento público | Pesquisa em ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md |
 
 ## Definição de pronto de uma issue
 

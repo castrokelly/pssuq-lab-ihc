@@ -83,7 +83,7 @@ Detalhamento e tratamento de situações especiais: [protocolo](PROTOCOLO_PSSUQ.
 
 O driver pg e SQL versionado foram escolhidos para reduzir a quantidade de ferramentas. Prisma é alternativa possível, não obrigação. As versões resolvidas devem ser congeladas em package-lock.json na primeira instalação com rede.
 
-A hospedagem de código será no repositório [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado no GitHub; isso não hospeda automaticamente um servidor Next.js ou PostgreSQL. A demonstração pode funcionar localmente com banco Docker. Hospedagem web é uma opção adicional e exige servidor Node compatível, PostgreSQL persistente e segredos configurados.
+A hospedagem de código será no repositório [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado no GitHub. Em 12/11/2026, Kelly definiu a **DigitalOcean** como provedor de publicação da plataforma e **pssuq.org** como domínio pretendido, com origem canônica pretendida **https://pssuq.org**. A modalidade proposta é App Platform para Next.js/React com PostgreSQL gerenciado, sujeita à definição do serviço, região e orçamento. A publicação efetiva, o controle do domínio e o DNS ainda não foram verificados. O [registro de publicação](PUBLICACAO_DIGITALOCEAN.md) detalha a preparação. A demonstração local com Docker permanece como contingência.
 
 ## 6. Modelo de dados e integridade
 
@@ -165,5 +165,7 @@ Executar demonstração em um banco com dados sintéticos claramente identificad
 ## 11. Licença e autoria
 
 O material autoral será compartilhado em **CC BY-SA 4.0**, licença de cultura livre que permite uso comercial e adaptações, com atribuição e compartilhamento pela mesma licença. O código autoral também recebe licença MIT como alternativa. Isso evita restringir a reutilização do software e mantém o material disponível sob CC.
+
+A pesquisa de 12/11/2026 encontrou QuestionPro UX, UX Scale Labs, UIUX Trend e a ferramenta relacionada de Gary Perlman. O projeto não reivindica pioneirismo na aplicação web ou no cálculo aberto do PSSUQ; o posicionamento proposto é gestão persistente de estudos e rastreabilidade do protocolo. Consulte a [comparação e análise de licenciamento](ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md).
 
 O grupo não declara autoria do PSSUQ nem aplica sua licença aos artigos ou às dependências. Não publicar dados pessoais ou respostas reais no repositório público. O plano não constitui aprovação de pesquisa pela universidade; caso o projeto evolua para pesquisa com participantes, seguir os procedimentos institucionais aplicáveis.

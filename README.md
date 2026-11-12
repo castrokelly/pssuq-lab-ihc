@@ -24,6 +24,8 @@ Ferramenta acadêmica planejada para gerenciar estudos e coletar, analisar e exp
 4. [Arquitetura e contratos](docs/ARQUITETURA.md): entidades, rotas, integridade e decisões técnicas.
 5. [Pesquisa e referências](docs/FONTES.md): fontes primárias, achados confirmados e limitações de acesso.
 6. [Backlog](docs/BACKLOG.md) e [validação](docs/VALIDACAO.md).
+7. [Publicação na DigitalOcean e domínio pssuq.org](docs/PUBLICACAO_DIGITALOCEAN.md): decisão registrada, arquitetura proposta e preparação.
+8. [Licenciamento, domínio e plataformas comparáveis](docs/ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md): pesquisa e limites do uso do instrumento e do nome.
 
 ## Estado desta entrega
 
@@ -32,6 +34,10 @@ Este é o **planejamento acompanhado de uma base inicial**, não a ferramenta co
 Ainda devem ser implementados: autenticação, gestão de estudos, formulário com a redação canônica dos 16 itens, coleta persistente, painéis e exportações. Não há coleta de participantes habilitada. O formulário do instrumento não foi substituído por uma tradução improvisada.
 
 O repositório remoto já foi criado em [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc). O início previsto da execução do planejamento é **23/10/2026**, com entrega final em **11/12/2026**. A publicação dos commits locais está pendente; os comandos para conferir o remoto e enviar o código estão no [passo a passo](docs/PASSO_A_PASSO.md#4-publicar-o-repositório-no-github).
+
+## Publicação planejada
+
+**Decisão registrada em 12/11/2026:** Kelly publicará a plataforma na **DigitalOcean**, utilizando o domínio pretendido **pssuq.org** e a URL canônica pretendida **https://pssuq.org**. O serviço exato, a região e o plano de recursos ainda serão definidos. A titularidade do domínio, o DNS e a publicação efetiva não foram verificados nesta etapa. Veja o [registro de publicação](docs/PUBLICACAO_DIGITALOCEAN.md).
 
 ## Tecnologias
 

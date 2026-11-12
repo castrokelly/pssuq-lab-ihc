@@ -93,7 +93,11 @@ Arquivo fornecido: Apresentação da Disciplina.pdf, 16 páginas. Conferidos tex
 | Validação brasileira da v3 | Não verificada nas fontes consultadas |
 | Uso sem taxa de licença | Declarado pelo próprio autor em F04; não confundir com licença dos artigos/livro |
 | Instrumento automaticamente sob CC do grupo | Não: direitos de terceiros permanecem distintos |
-| Repositório remoto criado | Não: bloqueado por ausência de sessão de criação autenticada |
+| Repositório remoto criado | Registrado no README como criado; origin configurado localmente; publicação dos commits ainda pendente de verificação |
 | Build Next.js e integração PostgreSQL | Pendentes de instalação e ambiente; ver VALIDACAO.md |
+
+## Complemento de 12/11/2026
+
+A pesquisa sobre direitos do instrumento, domínio, licenças e alternativas web está em [ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md](ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md), com referências primárias do autor, IBM, Creative Commons, PIR, INPI, WIPO e páginas das plataformas. A decisão DigitalOcean/pssuq.org e suas referências técnicas estão em [PUBLICACAO_DIGITALOCEAN.md](PUBLICACAO_DIGITALOCEAN.md). Consulta em fontes públicas não equivale a liberação marcária do nome ou comprovação de titularidade do domínio.
 
 Para qualquer modificação metodológica, registrar decisão e fonte. Não resolver contradições entre versões escolhendo a numeração mais conveniente.

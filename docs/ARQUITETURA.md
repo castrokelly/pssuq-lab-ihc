@@ -67,3 +67,5 @@ Separador CSV explícito e documentado; usar aspas corretamente em células com 
 - ADR-03: médias derivadas das respostas brutas; algoritmo versionado.
 - ADR-04: revisão do idioma e texto como condição de abertura.
 - ADR-05: GitHub para código; demonstração local viável; publicação web separada.
+- ADR-06 (12/11/2026): provedor de publicação escolhido por Kelly: DigitalOcean; domínio pretendido: pssuq.org; origem canônica pretendida: https://pssuq.org. App Platform com PostgreSQL gerenciado é uma proposta técnica a validar. Serviço, região, registro do domínio e infraestrutura efetiva permanecem pendentes. Ver [publicação](PUBLICACAO_DIGITALOCEAN.md).
+- ADR-07 (12/11/2026): apresentação pública como plataforma independente, atribuição do instrumento e separação das licenças autorais e dos direitos de terceiros. Ver [análise de licenciamento e plataformas](ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md).
