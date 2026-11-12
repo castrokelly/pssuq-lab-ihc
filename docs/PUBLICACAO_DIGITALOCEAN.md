@@ -10,22 +10,25 @@ Mestrado - 2026/02
 
 ## 1. Decisão confirmada
 
-Kelly informou que publicará a plataforma web **PSSUQ Lab na DigitalOcean, utilizando o domínio pssuq.org**.
+Kelly informou que publicará a plataforma web **PSSUQ Lab na DigitalOcean, utilizando o domínio pssuq.org**. Em complemento, informou que **já verificou o domínio e fará seu registro pela Cloudflare**.
 
 | Elemento | Registro |
 |---|---|
-| Provedor escolhido | DigitalOcean |
+| Provedor de hospedagem escolhido | DigitalOcean |
+| Registrador escolhido | Cloudflare Registrar |
+| DNS previsto | Cloudflare, conforme o serviço de registro escolhido |
 | Domínio pretendido | pssuq.org |
 | URL canônica pretendida | https://pssuq.org |
 | Repositório de código | https://github.com/castrokelly/pssuq-lab-ihc |
 | Aplicação | Next.js e React |
 | Persistência obrigatória | PostgreSQL |
 | Estado da publicação | Planejada; infraestrutura, DNS e aplicação em produção ainda não verificados |
-| Registro/titularidade do domínio | Não verificados nesta etapa |
+| Verificação do domínio | Informada como realizada por Kelly em 12/11/2026 |
+| Registro/titularidade do domínio | Registro pela Cloudflare planejado; aquisição ainda não informada |
 | Serviço exato e região na DigitalOcean | A definir; proposta técnica abaixo |
 | Licença | Material autoral CC BY-SA 4.0; código também disponível em MIT, conforme LICENSE.md |
 
-O domínio está registrado aqui como destino pretendido, sem declaração de que já esteja adquirido ou em funcionamento. A revisão do nome e da apresentação pública consta em [Licenciamento e plataformas](ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md).
+O domínio foi verificado por Kelly, conforme seu relato; o registro será realizado pela Cloudflare. A disponibilidade informada pela usuária não equivale à conclusão do registro ou à avaliação de direitos sobre o nome. A revisão do nome e da apresentação pública consta em [Licenciamento e plataformas](ANALISE_LICENCIAMENTO_E_PLATAFORMAS.md).
 
 ## 2. Proposta técnica dentro do provedor
 
@@ -55,16 +58,16 @@ Não imprimir DATABASE_URL em logs para verificar a configuração. Conferir con
 1. Concluir e revisar o formulário canônico, gestão de estudos, autorização e coleta.
 2. Gerar e versionar package-lock.json; validar testes, typecheck e build.
 3. Definir o produto DigitalOcean, região, recursos, backups e orçamento.
-4. Verificar controle do domínio e realizar a avaliação do nome descrita na análise.
+4. Efetuar o registro do domínio pela Cloudflare e confirmar controle da zona DNS; realizar a avaliação do nome descrita na análise.
 5. Preparar o serviço Next.js e PostgreSQL com segredos próprios para produção.
 6. Definir a migração de banco como etapa de implantação, executada uma única vez por versão.
 7. Validar o fluxo completo com dados sintéticos em ambiente de preparação.
-8. Adicionar o domínio no provedor, configurar os registros DNS que o painel indicar e verificar HTTPS.
+8. Adicionar o domínio na DigitalOcean, configurar na Cloudflare os registros DNS indicados pelo serviço e verificar HTTPS.
 9. Configurar URLs de autenticação e redirecionamentos para a origem correta.
 10. Verificar isolamento dos estudos, exportação, retenção e restauração.
 11. Publicar a versão aprovada e registrar URL, commit, data, região e responsáveis efetivos.
 
-Configurações de DNS e certificados dependem do serviço selecionado e da zona real. A documentação consultada registra uma limitação de DNSSEC em domínios associados à App Platform. Se isso se aplicar ao domínio, reavaliar a arquitetura ou encaminhar a configuração específica; não alterar proteção de DNS automaticamente.
+O registro pela Cloudflare utiliza nameservers da Cloudflare; a hospedagem da aplicação permanece na DigitalOcean. Configurações de DNS e certificados dependem do serviço selecionado e da zona real. A documentação consultada registra uma limitação de DNSSEC em domínios associados à App Platform. Se isso se aplicar ao domínio, reavaliar a arquitetura ou encaminhar a configuração específica; não alterar proteção de DNS automaticamente.
 
 ## 4. Apresentação pública e créditos
 
@@ -97,3 +100,4 @@ Manter visíveis:
 - Node.js/Next.js no buildpack: https://docs.digitalocean.com/products/app-platform/reference/buildpacks/nodejs/
 - Domínios e DNS na App Platform: https://docs.digitalocean.com/products/app-platform/how-to/manage-domains/
 - Banco e pools PostgreSQL: https://docs.digitalocean.com/products/app-platform/how-to/connect-pg-pools/
+- Registro e nameservers Cloudflare: https://developers.cloudflare.com/registrar/get-started/register-domain/

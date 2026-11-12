@@ -13,7 +13,7 @@ As fontes do próprio autor sustentam o uso do PSSUQ sem taxa de licença, com c
 
 É possível licenciar as contribuições autorais do grupo. A licença do grupo não altera os direitos do instrumento, dos artigos, das traduções de terceiros, das marcas ou dos dados dos participantes. A ausência de taxa não deve ser convertida em uma declaração de que tudo está em domínio público.
 
-O nome de domínio exige avaliação separada. Esta pesquisa não constitui uma busca marcária conclusiva nem confirma titularidade, disponibilidade registral ou autorização específica para pssuq.org.
+O nome de domínio exige avaliação separada. Kelly informou que já verificou o domínio e fará o registro pela Cloudflare. Esta pesquisa não constitui busca marcária conclusiva nem confirma titularidade ou autorização específica para o uso do nome.
 
 ## 2. Instrumento, software e documentação são objetos diferentes
 
@@ -34,7 +34,7 @@ No Brasil, o art. 8º da Lei 9.610/1998 distingue ideias, métodos e sistemas da
 
 ## 3. Uso de pssuq.org
 
-**Decisão informada por Kelly:** publicar a plataforma na DigitalOcean com o domínio pretendido pssuq.org.
+**Decisão informada por Kelly:** publicar a plataforma na DigitalOcean com o domínio pretendido pssuq.org; verificação do domínio já realizada pela usuária e registro planejado pela Cloudflare.
 
 O registro .org é aberto e não exige que o titular seja uma organização sem fins lucrativos, conforme o registro responsável, PIR [R4]. Domínio e marca, porém, são proteções diferentes, como explica o INPI [R5]. Domínios também podem ser objeto de disputa por direitos de marca, interesse legítimo e má-fé, conforme a UDRP descrita pela WIPO [R6].
 
@@ -51,7 +51,7 @@ Não foi localizada a expressão PSSUQ na página de marcas consultada. Isso nã
 1. Usar identidade própria para o software e apresentar o PSSUQ como instrumento aplicado.
 2. Identificar James R. Lewis, a origem em pesquisas na IBM, a versão 3 e as referências.
 3. Evitar apresentação como portal oficial, certificado ou endossado pela IBM ou pelo autor.
-4. Conferir a titularidade e situação do domínio no registrador.
+4. Após o registro planejado pela Cloudflare, confirmar titularidade e controle da zona DNS.
 5. Fazer busca de marcas nominativas e semelhantes nos registros pertinentes; a WIPO recomenda consultar também registros nacionais [R8].
 6. Se houver conflito ou dúvida sobre o uso do nome no domínio, obter orientação especializada ou esclarecimento do titular pertinente antes de consolidar a identidade pública. Um aviso de independência ajuda a esclarecer o projeto, mas não elimina direitos de terceiros.
 
@@ -59,7 +59,7 @@ Texto sugerido para a página institucional:
 
 > PSSUQ Lab é uma plataforma independente para aplicação e análise do PSSUQ versão 3. O instrumento foi desenvolvido por James R. Lewis no contexto de pesquisas da IBM. A plataforma é de autoria da equipe identificada neste projeto e não possui vínculo, certificação ou endosso da IBM ou do autor do instrumento. Os direitos de terceiros permanecem com seus respectivos titulares.
 
-A tentativa de abrir https://pssuq.org não retornou conteúdo acessível nesta pesquisa. Esse resultado não permite concluir que o domínio esteja disponível, registrado pelo grupo ou com DNS configurado.
+Kelly informou que já verificou o domínio e pretende registrá-lo pela Cloudflare. O registro permanece uma etapa futura. A tentativa de abrir https://pssuq.org nesta pesquisa não produziu evidência sobre propriedade ou configuração DNS e não substitui a verificação relatada pela usuária.
 
 ## 4. Plataformas e ferramentas encontradas
 

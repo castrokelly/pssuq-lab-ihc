@@ -37,7 +37,7 @@ O repositório remoto já foi criado em [castrokelly/pssuq-lab-ihc](https://gith
 
 ## Publicação planejada
 
-**Decisão registrada em 12/11/2026:** Kelly publicará a plataforma na **DigitalOcean**, utilizando o domínio pretendido **pssuq.org** e a URL canônica pretendida **https://pssuq.org**. O serviço exato, a região e o plano de recursos ainda serão definidos. A titularidade do domínio, o DNS e a publicação efetiva não foram verificados nesta etapa. Veja o [registro de publicação](docs/PUBLICACAO_DIGITALOCEAN.md).
+**Decisão registrada em 12/11/2026:** Kelly publicará a plataforma na **DigitalOcean**, utilizando o domínio pretendido **pssuq.org** e a URL canônica pretendida **https://pssuq.org**. O serviço exato, a região e o plano de recursos ainda serão definidos. Kelly informou que já verificou o domínio e fará o registro pela **Cloudflare**. O registro, o DNS e a publicação efetiva ainda serão executados. Veja o [registro de publicação](docs/PUBLICACAO_DIGITALOCEAN.md).
 
 ## Tecnologias
 
