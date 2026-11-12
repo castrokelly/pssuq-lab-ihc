@@ -1,0 +1,35 @@
+name: Verify
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: pssuq
+          POSTGRES_PASSWORD: pssuq_local_only
+          POSTGRES_DB: pssuq
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U pssuq -d pssuq"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm test
+      # Replace with npm ci after the first lockfile is committed.
+      - run: npm install
+      - run: npm run typecheck
+      - run: npm run build
+      - run: cp .env.example .env
+      - run: npm run db:apply
+      - run: npm run db:apply
+      - run: npm run db:check
