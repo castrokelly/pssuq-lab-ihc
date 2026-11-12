@@ -23,6 +23,10 @@ Atribuição sugerida: “PSSUQ Lab — Andrey Nery Lima Bonat, Gotardo Campara 
 
 O código-fonte autoral (src/, scripts/ e tests/) também pode ser usado alternativamente sob a licença MIT em LICENSE-CODE-MIT. O usuário do código escolhe uma dessas licenças. A documentação continua sob CC BY-SA 4.0.
 
+## Registro inicial no GitHub
+
+O texto MIT e o aviso de copyright do commit inicial do GitHub (`ec9c14a`) estão preservados integralmente em [LICENSE-INITIAL-MIT](LICENSE-INITIAL-MIT). O escopo das contribuições do projeto está descrito neste documento; a opção MIT do código consta em [LICENSE-CODE-MIT](LICENSE-CODE-MIT).
+
 ## Materiais de terceiros
 
 A licença do grupo não se aplica aos textos do instrumento PSSUQ, artigos, livros, slides do professor, marcas ou dependências. Cada um permanece sujeito aos seus direitos e condições de origem. Uso sem taxa de licença do PSSUQ não significa que artigos/livros inteiros possam ser redistribuídos. Consulte THIRD_PARTY_NOTICES.md.

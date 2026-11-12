@@ -8,7 +8,7 @@ Mestrado · 2026/02
 **Professor:** Dr. Leo Natan Paschoal
 **Planejamento elaborado em:** 11/11/2026 · **Início previsto da execução:** 23/10/2026 (23 de outubro) · **Entrega final:** 11/12/2026
 
-**Repositório:** [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado; publicação dos commits pendente.
+**Repositório de código e documentação:** [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc).
 
 **Equipe:**
 

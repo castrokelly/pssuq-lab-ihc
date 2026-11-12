@@ -48,7 +48,7 @@ Não é necessário Docker se houver PostgreSQL acessível: configurar DATABASE_
 
 ## 4. Publicar o repositório no GitHub
 
-**Situação desta entrega:** repositório remoto já criado em [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc); o histórico local já contém o commit inicial. A publicação dos commits está pendente.
+**Repositório:** [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc). O histórico do projeto integra os commits da base técnica e da documentação ao commit inicial criado no GitHub. Os comandos abaixo permitem enviar novas atualizações ao remoto.
 
 Conferir primeiro a configuração do remoto:
 
