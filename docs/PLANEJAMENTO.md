@@ -3,7 +3,9 @@
 **Equipe:** Andrey, Gotardo e Kelly
 **Disciplina:** Fundamentos da Interação Humano-Computador · PPGIa/PUCPR
 **Professor:** Dr. Leo Natan Paschoal
-**Planejamento elaborado em:** 11/11/2026 · **Entrega final:** 11/12/2026
+**Planejamento elaborado em:** 11/11/2026 · **Início previsto da execução:** 23/10/2026 (23 de outubro) · **Entrega final:** 11/12/2026
+
+**Repositório:** [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado; publicação dos commits pendente.
 
 ## 1. Proposta
 
@@ -30,7 +32,7 @@ Fonte: “Apresentação da Disciplina.pdf”, páginas 10 e 11; calendário com
 | D09 | Apresentação final | Explicar instrumento e arquitetura, demonstrar ao vivo e apresentar código |
 | D10 | Critérios de avaliação | Fidelidade, gestão de coleta/análise, arquitetura/código, usabilidade e apresentação |
 
-O projeto corresponde a **40%** da avaliação. A fase 1 estava prevista para **23/10**: proposta, trio, instrumento, justificativa e escopo, apresentados para feedback. Como essa data antecede este plano, o grupo deverá conferir o que já entregou e registrar eventuais ajustes; não se presume que a fase esteja concluída.
+O projeto corresponde a **40%** da avaliação. A fase 1 está prevista no cronograma para **23/10/2026**, marco inicial da execução: proposta, trio, instrumento, justificativa e escopo, a apresentar para feedback. Como esse marco antecede a elaboração deste documento, o grupo deverá conferir os registros do que foi executado e registrar eventuais ajustes; a data planejada não comprova a conclusão da fase.
 
 As páginas 10–11 não fixam número mínimo de participantes, duração da apresentação, provedor de hospedagem, ORM, biblioteca de gráficos ou autenticação específica. Essas decisões abaixo são propostas de engenharia do grupo. A exigência CC BY-SA para REAs aparece na página 8; aqui a adoção da licença também atende ao pedido explícito do grupo.
 
@@ -70,7 +72,7 @@ Detalhamento e tratamento de situações especiais: [protocolo](PROTOCOLO_PSSUQ.
 
 O driver pg e SQL versionado foram escolhidos para reduzir a quantidade de ferramentas. Prisma é alternativa possível, não obrigação. As versões resolvidas devem ser congeladas em package-lock.json na primeira instalação com rede.
 
-A hospedagem de código será no GitHub; isso não hospeda automaticamente um servidor Next.js ou PostgreSQL. A demonstração pode funcionar localmente com banco Docker. Hospedagem web é uma opção adicional e exige servidor Node compatível, PostgreSQL persistente e segredos configurados.
+A hospedagem de código será no repositório [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc), já criado no GitHub; isso não hospeda automaticamente um servidor Next.js ou PostgreSQL. A demonstração pode funcionar localmente com banco Docker. Hospedagem web é uma opção adicional e exige servidor Node compatível, PostgreSQL persistente e segredos configurados.
 
 ## 6. Modelo de dados e integridade
 
@@ -94,11 +96,15 @@ A divisão é uma proposta operacional; não pressupõe competências ou acordos
 
 Cada issue deve ter um responsável real, um revisor, critérios de aceite e evidências. Não convidar colaboradores no GitHub sem conhecer seus nomes de usuário; os primeiros nomes não identificam contas com segurança.
 
-## 8. Cronograma até 11/12/2026
+## 8. Cronograma de execução de 23/10 a 11/12/2026
+
+O início previsto da execução é **23 de outubro de 2026**. As etapas abaixo são marcos de planejamento; as anteriores à elaboração deste documento dependem de confirmação pelos registros do grupo.
 
 | Período | Entrega verificável | Liderança | Marco |
 |---|---|---|---|
-| 12–15/11 | Protocolo congelado; backlog; wireframes; repositório remoto; ambiente | Trio | Levar proposta e dúvidas à aula de 13/11 |
+| 23/10 | Proposta, trio, instrumento, justificativa e escopo para feedback | Trio | Início previsto da execução e fase 1 |
+| 24/10–11/11 | Detalhamento do protocolo, arquitetura, backlog e wireframes | Trio | Incorporar feedback da fase 1 e preparar a base técnica |
+| 12–15/11 | Revisão do protocolo; consolidação da base; vinculação ao remoto já criado; publicação dos commits; ambiente | Trio | Levar proposta e dúvidas à aula de 13/11 |
 | 16–22/11 | Login/autorização; CRUD de estudos; schema/migração; tokens de sessão | Gotardo + Andrey | 20/11 sem aula segundo o calendário |
 | 23–29/11 | Fluxo de tarefas → questionário → envio; gravação transacional; testes | Andrey + Gotardo | Demonstrar coleta ao professor em 27/11 |
 | 30/11–06/12 | Painel, tabelas, gráficos, CSV/JSON; piloto; correções | Kelly + Trio | Demonstrar análise em 04/12 |
@@ -143,7 +149,7 @@ Executar demonstração em um banco com dados sintéticos claramente identificad
 | Tempo curto | MVP incompleto | Escopo fechado e integração semanal |
 | Ausência de rede na apresentação | Falha na demonstração | App/banco locais e dados sintéticos disponíveis |
 | Dependências não instaladas | Build desconhecido | Gerar lockfile e executar CI assim que houver rede |
-| Sem sessão GitHub para criação | Código ainda não publicado | Repositório local pronto e script de publicação autenticada |
+| Falha de autenticação ou rede no envio ao GitHub | Commits locais ainda não publicados | Conferir origin, autenticar e enviar os commits ao repositório já criado; verificar o resultado remoto |
 
 ## 11. Licença e autoria
 

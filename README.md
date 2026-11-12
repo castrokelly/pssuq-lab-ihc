@@ -19,7 +19,7 @@ Este é o **planejamento acompanhado de uma base inicial**, não a ferramenta co
 
 Ainda devem ser implementados: autenticação, gestão de estudos, formulário com a redação canônica dos 16 itens, coleta persistente, painéis e exportações. Não há coleta de participantes habilitada. O formulário do instrumento não foi substituído por uma tradução improvisada.
 
-O repositório remoto ainda não foi criado: a sessão de navegador disponível exige login, a integração conectada não expõe criação de repositórios e o terminal está sem resolução de rede. O script `scripts/publicar-github.ps1` cria e publica o repositório quando executado em ambiente com GitHub CLI autenticado. Nenhuma URL remota é apresentada como existente.
+O repositório remoto já foi criado em [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc). O início previsto da execução do planejamento é **23/10/2026**, com entrega final em **11/12/2026**. A publicação dos commits locais está pendente; os comandos para conferir o remoto e enviar o código estão no [passo a passo](docs/PASSO_A_PASSO.md#4-publicar-o-repositório-no-github).
 
 ## Tecnologias
 

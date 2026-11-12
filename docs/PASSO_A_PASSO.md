@@ -42,34 +42,30 @@ Não é necessário Docker se houver PostgreSQL acessível: configurar DATABASE_
 
 ## 4. Publicar o repositório no GitHub
 
-**Situação desta entrega:** repositório Git local preparado; remoto não criado por ausência de sessão de criação autenticada. A conta do GitHub conectado foi identificada como castrokelly, mas não se afirma que castrokelly/pssuq-lab-ihc exista.
+**Situação desta entrega:** repositório remoto já criado em [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc); o histórico local já contém o commit inicial. A publicação dos commits está pendente.
 
-Em ambiente com GitHub CLI:
+Conferir primeiro a configuração do remoto:
 
 ```powershell
-gh auth login
+git remote -v
+```
+
+Se uma cópia local ainda não tiver origin configurado, adicionar uma única vez:
+
+```powershell
+git remote add origin https://github.com/castrokelly/pssuq-lab-ihc.git
+```
+
+Revisar o estado local e publicar a branch main em ambiente autenticado:
+
+```powershell
 git status
-powershell -File scripts/publicar-github.ps1
-```
-
-O script verifica a conta autenticada, exige commit e árvore limpa, recusa sobrescrever origin ou repositório existente, cria repositório **público** e publica o commit atual. Publicar apenas código, documentação e exemplos sintéticos.
-
-Se o pacote baixado não contiver histórico Git, inicializar uma vez antes do script:
-
-```powershell
-git init -b main
-git add .
-git commit -m "chore: planejar PSSUQ Lab e iniciar base tecnica"
-```
-
-Alternativa pela interface: criar repositório vazio chamado pssuq-lab-ihc na conta pretendida, sem README/licença gerados pelo GitHub; copiar a URL exibida e executar:
-
-```powershell
-git remote add origin URL_EXIBIDA_PELO_GITHUB
 git push -u origin main
 ```
 
-URL_EXIBIDA_PELO_GITHUB é um marcador a substituir, não um endereço literal. Conferir que README e docs estão no remoto. Só então o requisito de código no GitHub está atendido.
+Se for necessário autenticar com GitHub CLI, executar `gh auth login` antes do envio. Publicar apenas código, documentação e exemplos sintéticos.
+
+O script `scripts/publicar-github.ps1` cria um novo repositório e recusa um já existente; não se aplica à publicação neste remoto. Após o push, conferir que README e docs estão no GitHub. Só então o requisito de código no GitHub está atendido.
 
 Não convidar Andrey e Gotardo por nomes aproximados: obter os nomes de usuário corretos. Convites não foram enviados.
 

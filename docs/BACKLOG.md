@@ -1,11 +1,11 @@
 # Backlog com critérios de aceite
 
-As atribuições são propostas. Criar issues após o repositório remoto existir; não foram criadas issues remotas nesta execução.
+As atribuições são propostas. O repositório remoto já existe em [castrokelly/pssuq-lab-ihc](https://github.com/castrokelly/pssuq-lab-ihc); a criação das issues permanece pendente.
 
 | ID | Prioridade | Responsável | Entrega e aceite | Dependência |
 |---|---|---|---|---|
 | 01 | P0 | Kelly | Conferir v3 canônica; fonte/idioma/hash e revisão dupla registrados | Nenhuma |
-| 02 | P0 | Trio | Criar remoto, publicar base, gerar lockfile e CI verde | Acesso GitHub/rede |
+| 02 | P0 | Trio | Vincular o remoto já criado, publicar base, gerar lockfile e CI verde | Acesso GitHub/rede |
 | 03 | P0 | Andrey | Wireframes de gestão, sessão, formulário e painel; revisão por teclado | 01 |
 | 04 | P0 | Gotardo | Autenticação de pesquisador e isolamento de estudos no servidor | 02 |
 | 05 | P0 | Gotardo | Aplicar migração PostgreSQL; teste real de constraints/rollback | 02 |
